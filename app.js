@@ -319,14 +319,14 @@
 //Task 32
 //In this task we have to write a program to check if a string is a palindrome.
 
-function isPalindrome(string) { 
-    let lastVariant = string.split("").reverse().join("")
+// function isPalindrome(string) { 
+//     let lastVariant = string.split("").reverse().join("")
 
-    return string === lastVariant;
-}
+//     return string === lastVariant;
+// }
 
 
-console.log(isPalindrome("atami itesa aseti imata"))
+// console.log(isPalindrome("atami itesa aseti imata"))
 
 
 //Task 33
@@ -354,7 +354,7 @@ console.log(isPalindrome("atami itesa aseti imata"))
 // function sumOfEvenNumbers(arr){
 // let sum = 0;
 
-// for(i=0; i<arr.length; i++) { 
+// for(let i=0; i<arr.length; i++) { 
 //     if(arr[i] % 2 === 0) {
 //         sum = sum + arr[i]
 //     }
