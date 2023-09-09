@@ -479,13 +479,13 @@
 //In this task we have to write a program to find the index of the latest occurrence of an element in an array.
 
 // function indexOfLatestElement(arr, lastElement) {
-//     let index = arr.indexOf(lastElement)
+//     let index = arr.lastIndexOf(lastElement)
 
 //     return index 
 // }
 
 
-// console.log(indexOfLatestElement([1,2,3,4,5], 5))
+// console.log(indexOfLatestElement([1,2,3,4,5,5], 5))
 
 
 //Task 43
