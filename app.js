@@ -136,11 +136,19 @@
 //Task 17
 //In this task we have to write a program to check if a string is empty or not.
 
-// let str = " Dog";
+// let str = "";
 // if(str == 0) {
 //     console.log("The string is empty!")
 // } else {
 //     console.log("The string isn't empty!")
+// }
+
+
+// let str = "Dog";
+// if (str.trim().length === 0) {
+//   console.log("The string is empty!");
+// } else {
+//   console.log("The string isn't empty!");
 // }
 
 //Task 18
