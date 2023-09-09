@@ -207,10 +207,11 @@
 // let arr= [4, 6];
 // let sum= 0 ;
 
-// for(i=0; i<arr.length; i++) { 
+// for(let i=0; i<arr.length; i++) { 
 //       sum = sum + arr[i];
-//     average = sum / arr.length
+//     
 // }
+// let average = sum / arr.length
 
 // console.log(average)
 
