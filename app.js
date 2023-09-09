@@ -276,12 +276,12 @@
 //Task 29
 //In this task we have to write a program to remove an element from an array.
 
-//let arr = [1,2,3,4,5,6];
-// let newArr = arr.shift(1);
+// let arr = [1,2,3,4,5,6];
+// let newArr = arr.shift();
 
 // console.log(arr)
 
-// let newArr = arr.pop(6);
+// let newArr = arr.pop();
 // console.log(arr)
 
 //Task 30
