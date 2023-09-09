@@ -301,32 +301,32 @@
 //Task 31
 //In this task we have to write a program to find the length of the longest word in a sentence.
 
-function longestWordInASentence(sentence) {
-    let words = sentence.split(" ");
-    let longestWord = words[0];
-    for(let i = 0; i < words.length; i++) {
-        if(words[i].length > longestWord.length) {
-            longestWord = words[i]
-        }
-    }
+// function longestWordInASentence(sentence) {
+//     let words = sentence.split(" ");
+//     let longestWord = words[0];
+//     for(let i = 0; i < words.length; i++) {
+//         if(words[i].length > longestWord.length) {
+//             longestWord = words[i]
+//         }
+//     }
    
- return longestWord.length
-}
+//  return longestWord.length
+// }
 
-console.log(longestWordInASentence("Our friendship is better than yours!"))
+// console.log(longestWordInASentence("Our friendship is better than yours!"))
 
 
 //Task 32
 //In this task we have to write a program to check if a string is a palindrome.
 
-// function isPalindrome(string) { 
-//     let lastVariant = string.split("").reverse().join("")
+function isPalindrome(string) { 
+    let lastVariant = string.split("").reverse().join("")
 
-//     return lastVariant
-// }
+    return string === lastVariant;
+}
 
 
-// console.log(isPalindrome("atami itesa aseti imata"))
+console.log(isPalindrome("atami itesa aseti imata"))
 
 
 //Task 33
