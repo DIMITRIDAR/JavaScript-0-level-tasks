@@ -413,14 +413,14 @@
 //Task 38
 //In this task we have to write a program to find the index of the first occurrence of an element in an array.
 
-function findTheIndex(arr, elementToFind) { 
-    return arr.indexOf(elementToFind);
+// function findTheIndex(arr, elementToFind) { 
+//     return arr.indexOf(elementToFind);
 
     
-}
+// }
 
 
-console.log(findTheIndex([1,2,3,4], 1))
+// console.log(findTheIndex([1,2,3,4], 1))
 
 
 //Task 39
@@ -438,6 +438,14 @@ console.log(findTheIndex([1,2,3,4], 1))
 // }
 
 // console.log(toRemoveFalsyValues([1, null, "hello", true,undefined, NaN, 2, 4, 6, "Dog"]))
+
+//The second way to solve the problem
+
+// const toRemoveFalsyValues = (arr) => arr.filter(Boolean); 
+
+// console.log(toRemoveFalsyValues([1, null, "hello", true,undefined, NaN, 2, 4, 6, "Dog"]))
+
+
 
 
 //Task 40
