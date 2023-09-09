@@ -381,13 +381,13 @@
 //Task 36
 //In this task we have to write a program to find the second largest number in an array.
 
-// function sortAndFind(arr) {
-//     let sortedArr = arr.sort((a,b) => b-a);
+function sortAndFind(arr) {
+    let sortedArr = arr.sort((a,b) => b-a);
 
-//     return arr.length-1
-// }
+    return sortedArr[1];
+}
 
-// console.log(sortAndFind([1,4,2,6,7,8,3,0]))
+console.log(sortAndFind([1,4,2,6,7,8,3,0]))
 
 
 
