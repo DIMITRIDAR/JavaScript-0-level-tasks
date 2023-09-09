@@ -290,7 +290,7 @@
 // let arr = [1,2,3,1,4,1,5,6,5,7,8,7,6,1];
 // let elementToCount = 1;
 // let count = 0;
-// for(i=0; i<arr.length; i++) {
+// for(let i=0; i<arr.length; i++) {
 //     if(arr[i] === elementToCount) {
 //         count ++
 //     }
