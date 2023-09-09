@@ -512,6 +512,12 @@
 
 // console.log(mergedArray([1,4,3,2], [6,8,7,5]))
 
+// function mergedArray(arr1, arr2) {
+//     let mergedArr = [...arr1, ...arr2];
+//     return mergedArr.sort((a, b) => a - b);
+//   }
+//   console.log(mergedArray([1, 4, 3, 2], [6, 8, 7, 5]));
+
 
 //Task 44
 //In this task we have to write a program to sort an array of strings in alphabetical order.
@@ -562,30 +568,29 @@
 
 // let days = Number(prompt("Enter the day"));
 
-// switch(days) {
-//     case 1 : 
+// switch (days) {
+//   case 1:
 //     console.log("Sunday");
-//        break;
-//          case 2 :
-//             console.log("Monday");
-//             break;
-//                case 3: 
-//                console.log("Tuesday");
-//                    break;
-//                       case 4 : 
-//                       console.log("Wednesday");
-//                           break;
-//                             case 5 : 
-//                             console.log("Thursday");
-//                                  break;
-//                                     case 6 : 
-//                                     console.log("Friday");
-//                                           break;
-//                                               case 7: 
-//                                               console.log("Saturday");
-//                                                   break;
+//     break;
+//   case 2:
+//     console.log("Monday");
+//     break;
+//   case 3:
+//     console.log("Tuesday");
+//     break;
+//   case 4:
+//     console.log("Wednesday");
+//     break;
+//   case 5:
+//     console.log("Thursday");
+//     break;
+//   case 6:
+//     console.log("Friday");
+//     break;
+//   case 7:
+//     console.log("Saturday");
+//     break;
 // }
-
 
 
 //Task 53
