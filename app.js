@@ -450,6 +450,28 @@
 
 //Task 40
 //In this task we have to write a program to find the largest element in a multi-dimensional array.
+//First way to solve
+
+// function findLargestElement(arr) {
+//     let largest = -Infinity;
+  
+//     for (let i = 0; i < arr.length; i++) {
+//       if (Array.isArray(arr[i])) {
+//         const nestedLargest = findLargestElement(arr[i]);
+//         if (nestedLargest > largest) {
+//           largest = nestedLargest;
+//         }
+//       } else if (arr[i] > largest) {
+//         largest = arr[i];
+//       }
+//     }
+  
+//     return largest;
+//   }
+  
+//   let arr = [-1, 2, 3, [1, 2, 5], [4, 5, 6, [7, 8, 9, [10, 11, [50]]]]];
+  
+  console.log(findLargestElement(arr));
 
 
 //Task 41
