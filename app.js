@@ -600,13 +600,15 @@
 // }
 
 // console.log(uniqueWords("the lion is a very strong animal"))
-  
-//     //   let newarr = uniqueArr.sort((a, b) => a.localeCompare(b));
-//     let newarr = uniqueArr.sort(
+
+
+//Second way to solve this task.  
+//     //   let newArr = uniqueArr.sort((a, b) => a.localeCompare(b));
+//     let newArr = uniqueArr.sort(
 //       (a, b) => a.toLowerCase().charCodeAt(0) - b.toLowerCase().charCodeAt(0)
 //     );
   
-//     return newarr;
+//     return newArr;
 //   }
 //   console.log(
 //     uniqueWords(
