@@ -471,7 +471,21 @@
   
 //   let arr = [-1, 2, 3, [1, 2, 5], [4, 5, 6, [7, 8, 9, [10, 11, [50]]]]];
   
-  console.log(findLargestElement(arr));
+//   console.log(findLargestElement(arr));
+
+//Another way to solve this task.
+
+// function findLargestElement(arr) {
+//       let flatArray = arr.flat(Infinity);
+//       let largest = Math.max(...flatArray);
+//       return largest;
+//     }
+    
+//     const findLargestElement = (arr) => Math.max(...arr.flat(Infinity));
+    
+//     let arr = [-1, 2, 3, [1, 2, 5], [4, 5, 6, [7, 8, 9, [10, 11, [50]]]]];
+    
+//     console.log(findLargestElement(arr));
 
 
 //Task 41
