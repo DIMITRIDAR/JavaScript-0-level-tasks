@@ -621,6 +621,51 @@
 //In this task we have to write a function that takes a string as an input and returns true if it is a pangram(contains every letter
 //of the alphabet at least once). False otherwise.
 
+// function pangram(string) {
+//     const alphabet = [
+//       "a",
+//       "b",
+//       "c",
+//       "d",
+//       "e",
+//       "f",
+//       "g",
+//       "h",
+//       "i",
+//       "j",
+//       "k",
+//       "l",
+//       "m",
+//       "n",
+//       "o",
+//       "p",
+//       "q",
+//       "r",
+//       "s",
+//       "t",
+//       "u",
+//       "v",
+//       "w",
+//       "x",
+//       "y",
+//       "z",
+//     ];
+  
+//     let newString = string
+//       .toLowerCase()
+//       .replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, "");
+  
+//     for (let letter of alphabet) {
+//       if (!newString.includes(letter)) {
+//         return false;
+//       }
+//     }
+  
+//     return true;
+//   }
+  
+//   console.log(pangram("The quick brown fox jumps over a lazy dog."));
+
 //Task 48
 //In this task we have to write a function that takes an array of objects and a property name and returns an array of 
 //unique values for that property across all objects.
