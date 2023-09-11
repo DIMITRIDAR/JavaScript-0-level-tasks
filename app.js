@@ -586,6 +586,35 @@
 //order, excluding common English words such as ,,the'', ,,a'' and ,,is''.
 
 
+//First way to solve this task.
+
+// function uniqueWords(string) {
+//     let newSet = new Set(
+//       string.replace(/\b(?:the|a|is)\b|[^\w\s]/g, "").split(" ")
+//     );
+//     newSet.delete("");
+//     let uniqueArr = [...newSet].join(" ")
+
+//     return  uniqueArr
+
+// }
+
+// console.log(uniqueWords("the lion is a very strong animal"))
+  
+//     //   let newarr = uniqueArr.sort((a, b) => a.localeCompare(b));
+//     let newarr = uniqueArr.sort(
+//       (a, b) => a.toLowerCase().charCodeAt(0) - b.toLowerCase().charCodeAt(0)
+//     );
+  
+//     return newarr;
+//   }
+//   console.log(
+//     uniqueWords(
+//       "JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced."
+//     )
+//   );
+
+
 //Task 47
 //In this task we have to write a function that takes a string as an input and returns true if it is a pangram(contains every letter
 //of the alphabet at least once). False otherwise.
