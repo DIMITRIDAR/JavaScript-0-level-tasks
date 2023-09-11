@@ -567,6 +567,20 @@
 //Task 45
 //In this task we have to write a program to find the common elements among multiple arrays.
 
+// function findCommonElements(...arrays) {
+//     if (arrays.length === 0 || arrays === null) {
+//       return;
+//     }
+  
+//     let baseArray = arrays[0];
+  
+//     return baseArray.filter((element) => {
+//       return arrays.every((array) => array.includes(element));
+//     });
+//   }
+  
+//   console.log(findCommonElements([1, 2, 3], [3, 2, 4, 5], [3, 7, 8]));
+
 //Task 46
 //In this task we have to write a function that takes a sentence as an input and returns an array of unique words in an alphabetical
 //order, excluding common English words such as ,,the'', ,,a'' and ,,is''.
