@@ -694,6 +694,26 @@
 //Task 49
 //In this task we have to write a function that takes a string as input and returns an object containing the count of each character
 //in the string, excluding spaces.
+//First way to solve this task.
+
+// function charCounter(string) {
+//   let obj = {};
+//   let formattedString = string.replace(/\s/g, "");
+
+//   for (let i = 0; i < formattedString.length; i++) {
+//     const char = formattedString[i];
+
+//     if (obj[char]) {
+//       obj[char]++;
+//     } else {
+//       obj[char] = 1;
+//     }
+//   }
+
+//   return obj;
+// }
+
+// console.log(charCounter("Hello, World! fef ewf we f"));
 
 //Task 50
 //in this task we have to write a function that takes a string as input and returns the longest substring that contains only
