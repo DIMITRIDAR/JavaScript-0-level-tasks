@@ -715,6 +715,27 @@
 
 // console.log(charCounter("Hello, World! fef ewf we f"));
 
+
+// function charCounter(string) {
+//   let obj = {};
+//   let formattedString = string.replace(/\s/g, "");
+
+//   for (let i = 0; i < formattedString.length; i++) {
+//     const char = formattedString[i];
+//     let counter = 0;
+//     for (let j = 0; j < formattedString.length; j++) {
+//       if (char === formattedString[j]) {
+//         counter++;
+//       }
+//     }
+//     obj[char] = counter;
+//   }
+
+//   return obj;
+// }
+
+// console.log(charCounter("Hello, World! fef ewf we f"))
+
 //Task 50
 //in this task we have to write a function that takes a string as input and returns the longest substring that contains only
 //unique characters. If there are multiple substrings with the same length, return the first one you encounter.
