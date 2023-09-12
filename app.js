@@ -670,6 +670,27 @@
 //In this task we have to write a function that takes an array of objects and a property name and returns an array of 
 //unique values for that property across all objects.
 
+// function uniqueValues(objects, key) {
+//   const uniqueValuesSet = new Set();
+
+//   objects.forEach((object) => {
+//     if (object.hasOwnProperty(key)) {
+//       uniqueValuesSet.add(object[key]);
+//     }
+//   });
+
+//   return Array.from(uniqueValuesSet);
+// }
+
+// const data = [
+//   { id: 1, name: "Temo", age: 11 },
+//   { id: 1, name: "Dimitri", age: 13 },
+//   { id: 1, name: "Temo", age: 15 },
+//   { id: 1, hobby: "Temo", age: 11 },
+// ];
+
+// console.log(uniqueValues(data, "name"));
+
 //Task 49
 //In this task we have to write a function that takes a string as input and returns an object containing the count of each character
 //in the string, excluding spaces.
