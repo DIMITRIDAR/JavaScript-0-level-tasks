@@ -16,13 +16,12 @@
 //let y = 10;
 //console.log(x + y)
 
-//Task 4 
+//Task 4
 //In this task we have to write a program to subtract two numbers and display the result.
 
 //let x = 14;
 //let y = 3;
 //console.log( x - y)
-
 
 //Task 5
 //In this task we have to write a program to multiply two numbers and display the result.
@@ -30,7 +29,6 @@
 //let x = 5;
 //let y = 6;
 //console.log(x * y )
-
 
 //Task 6
 //In this task we have to write a program to divide two numbers and display the result.
@@ -44,7 +42,7 @@
 
 // let x = 14;
 // let y = 3;
-// console.log( x % y ) 
+// console.log( x % y )
 
 //Task 8
 //In this task we have to create a variable an assign a string to it. Print the length of the string.
@@ -52,7 +50,7 @@
 // let str = "Hello world!";
 // console.log(str.length)
 
-//Task 9 
+//Task 9
 //In this task we have to concatenate two strings and display the result.
 
 //let str1 = "Hello ";
@@ -60,9 +58,8 @@
 //console.log( str1 + str2)
 //console.log(str1.concat(str2))
 
-
 //Task 10
-//In this task we have to write a program to convert a string to uppercase. 
+//In this task we have to write a program to convert a string to uppercase.
 
 // let str = "hello world!"
 // console.log(str.toUpperCase())
@@ -143,7 +140,6 @@
 //     console.log("The string isn't empty!")
 // }
 
-
 // let str = "Dog";
 // if (str.trim().length === 0) {
 //   console.log("The string is empty!");
@@ -185,9 +181,9 @@
 //Task 21
 //In this task we have to write a program to reverse a string.
 
- //let str = "Dog is an animal"
+//let str = "Dog is an animal"
 
- //console.log(str.split("").reverse().join(""))
+//console.log(str.split("").reverse().join(""))
 
 //Task 22
 //In this task we have to write a program to find the sum of all numbers in an array.
@@ -207,9 +203,9 @@
 // let arr= [4, 6];
 // let sum= 0 ;
 
-// for(let i=0; i<arr.length; i++) { 
+// for(let i=0; i<arr.length; i++) {
 //       sum = sum + arr[i];
-//     
+//
 // }
 // let average = sum / arr.length
 
@@ -256,7 +252,7 @@
 // function sort(arr) {
 //        arr.sort((a,b) => a-b);
 //        return arr[0];
-      
+
 // }
 
 // console.log(sort(arr))
@@ -309,44 +305,40 @@
 //             longestWord = words[i]
 //         }
 //     }
-   
+
 //  return longestWord.length
 // }
 
 // console.log(longestWordInASentence("Our friendship is better than yours!"))
 
-
 //Task 32
 //In this task we have to write a program to check if a string is a palindrome.
 
-// function isPalindrome(string) { 
+// function isPalindrome(string) {
 //     let lastVariant = string.split("").reverse().join("")
 
 //     return string === lastVariant;
 // }
 
-
 // console.log(isPalindrome("atami itesa aseti imata"))
-
 
 //Task 33
 //In this task we have to write a program to capitalize the first letter of each word in a sentence.
 
-// function capitalizeFirstLetter(sentence) { 
+// function capitalizeFirstLetter(sentence) {
 //     let words = sentence.split(" ");
 //     let capitalizedWords = [];
-//     for(let word of words) { 
+//     for(let word of words) {
 //         capitalizedWord = word.charAt(0).toUpperCase() + word.slice(1)
 //         capitalizedWords.push(capitalizedWord);
 //     }
 
-//     let capitalizedSentence = capitalizedWords.join(" "); 
+//     let capitalizedSentence = capitalizedWords.join(" ");
 //     return capitalizedSentence
-     
+
 // }
 
 // console.log(capitalizeFirstLetter("capital city of georgia is tbilisi"))
-
 
 //Task 34
 //In this task we have to find the sum of all even numbers in an array.
@@ -354,17 +346,16 @@
 // function sumOfEvenNumbers(arr){
 // let sum = 0;
 
-// for(let i=0; i<arr.length; i++) { 
+// for(let i=0; i<arr.length; i++) {
 //     if(arr[i] % 2 === 0) {
 //         sum = sum + arr[i]
 //     }
 // }
 
 // return sum
-// } 
+// }
 
 // console.log(sumOfEvenNumbers([1,2,3,4,5,6,7,8,8,9,9,0]))
-
 
 //Task 35
 //In this task we have to reverse the order of words in a sentence.
@@ -377,7 +368,6 @@
 
 // console.log(reverseOrder("An apple is on the table "))
 
-
 //Task 36
 //In this task we have to write a program to find the second largest number in an array.
 
@@ -389,8 +379,6 @@
 
 // console.log(sortAndFind([1,4,2,6,7,8,3,0]))
 
-
-
 //Task 37
 //In this task we have to check if two arrays are equal.
 
@@ -400,7 +388,7 @@
 //     }
 //     for( let i=0; i < arr1.length; i++) {
 //         if(arr1[i] !== arr2[i]) {
-//             return false 
+//             return false
 //         }
 //     }
 
@@ -409,26 +397,22 @@
 
 // console.log(equalArrays([1,2,3], [1,2,3]))
 
-
 //Task 38
 //In this task we have to write a program to find the index of the first occurrence of an element in an array.
 
-// function findTheIndex(arr, elementToFind) { 
+// function findTheIndex(arr, elementToFind) {
 //     return arr.indexOf(elementToFind);
 
-    
 // }
 
-
 // console.log(findTheIndex([1,2,3,4], 1))
-
 
 //Task 39
 //In this task we have to write a program to remove all falsy values from an array.
 
 // function toRemoveFalsyValues(arr) {
 //     let filteredArr =[];
-//     for(let i=0; i<arr.length; i++) { 
+//     for(let i=0; i<arr.length; i++) {
 //         if(arr[i]) {
 //             filteredArr.push(arr[i])
 //         }
@@ -441,12 +425,9 @@
 
 //The second way to solve the problem
 
-// const toRemoveFalsyValues = (arr) => arr.filter(Boolean); 
+// const toRemoveFalsyValues = (arr) => arr.filter(Boolean);
 
 // console.log(toRemoveFalsyValues([1, null, "hello", true,undefined, NaN, 2, 4, 6, "Dog"]))
-
-
-
 
 //Task 40
 //In this task we have to write a program to find the largest element in a multi-dimensional array.
@@ -454,7 +435,7 @@
 
 // function findLargestElement(arr) {
 //     let largest = -Infinity;
-  
+
 //     for (let i = 0; i < arr.length; i++) {
 //       if (Array.isArray(arr[i])) {
 //         const nestedLargest = findLargestElement(arr[i]);
@@ -465,12 +446,12 @@
 //         largest = arr[i];
 //       }
 //     }
-  
+
 //     return largest;
 //   }
-  
+
 //   let arr = [-1, 2, 3, [1, 2, 5], [4, 5, 6, [7, 8, 9, [10, 11, [50]]]]];
-  
+
 //   console.log(findLargestElement(arr));
 
 //Another way to solve this task.
@@ -480,13 +461,12 @@
 //       let largest = Math.max(...flatArray);
 //       return largest;
 //     }
-    
-//     const findLargestElement = (arr) => Math.max(...arr.flat(Infinity));
-    
-//     let arr = [-1, 2, 3, [1, 2, 5], [4, 5, 6, [7, 8, 9, [10, 11, [50]]]]];
-    
-//     console.log(findLargestElement(arr));
 
+//     const findLargestElement = (arr) => Math.max(...arr.flat(Infinity));
+
+//     let arr = [-1, 2, 3, [1, 2, 5], [4, 5, 6, [7, 8, 9, [10, 11, [50]]]]];
+
+//     console.log(findLargestElement(arr));
 
 //Task 41
 //In this task we have to write a program to remove all duplicates from an array.
@@ -510,19 +490,16 @@
 
 // console.log(removeDuplicates([1,1,2,2,3,3,4,5]))
 
-
 //Task 42
 //In this task we have to write a program to find the index of the latest occurrence of an element in an array.
 
 // function indexOfLatestElement(arr, lastElement) {
 //     let index = arr.lastIndexOf(lastElement)
 
-//     return index 
+//     return index
 // }
 
-
 // console.log(indexOfLatestElement([1,2,3,4,5,5], 5))
-
 
 //Task 43
 //In this task we have to write a program to merge two sorted arrays into a single sorted array.
@@ -535,7 +512,6 @@
 // }
 
 // console.log(mergedArray([1,4,2], [6,9,7]))
-
 
 // function mergedArray(arr1, arr2) {
 //     let arr1New = arr1.sort((a,b) => a-b);
@@ -554,7 +530,6 @@
 //   }
 //   console.log(mergedArray([1, 4, 3, 2], [6, 8, 7, 5]));
 
-
 //Task 44
 //In this task we have to write a program to sort an array of strings in alphabetical order.
 
@@ -571,20 +546,19 @@
 //     if (arrays.length === 0 || arrays === null) {
 //       return;
 //     }
-  
+
 //     let baseArray = arrays[0];
-  
+
 //     return baseArray.filter((element) => {
 //       return arrays.every((array) => array.includes(element));
 //     });
 //   }
-  
+
 //   console.log(findCommonElements([1, 2, 3], [3, 2, 4, 5], [3, 7, 8]));
 
 //Task 46
 //In this task we have to write a function that takes a sentence as an input and returns an array of unique words in an alphabetical
 //order, excluding common English words such as ,,the'', ,,a'' and ,,is''.
-
 
 //First way to solve this task.
 
@@ -601,13 +575,12 @@
 
 // console.log(uniqueWords("the lion is a very strong animal"))
 
-
-//Second way to solve this task.  
+//Second way to solve this task.
 //     //   let newArr = uniqueArr.sort((a, b) => a.localeCompare(b));
 //     let newArr = uniqueArr.sort(
 //       (a, b) => a.toLowerCase().charCodeAt(0) - b.toLowerCase().charCodeAt(0)
 //     );
-  
+
 //     return newArr;
 //   }
 //   console.log(
@@ -615,7 +588,6 @@
 //       "JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced."
 //     )
 //   );
-
 
 //Task 47
 //In this task we have to write a function that takes a string as an input and returns true if it is a pangram(contains every letter
@@ -650,24 +622,24 @@
 //       "y",
 //       "z",
 //     ];
-  
+
 //     let newString = string
 //       .toLowerCase()
 //       .replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, "");
-  
+
 //     for (let letter of alphabet) {
 //       if (!newString.includes(letter)) {
 //         return false;
 //       }
 //     }
-  
+
 //     return true;
 //   }
-  
+
 //   console.log(pangram("The quick brown fox jumps over a lazy dog."));
 
 //Task 48
-//In this task we have to write a function that takes an array of objects and a property name and returns an array of 
+//In this task we have to write a function that takes an array of objects and a property name and returns an array of
 //unique values for that property across all objects.
 
 // function uniqueValues(objects, key) {
@@ -715,7 +687,6 @@
 
 // console.log(charCounter("Hello, World! fef ewf we f"));
 
-
 // function charCounter(string) {
 //   let obj = {};
 //   let formattedString = string.replace(/\s/g, "");
@@ -740,6 +711,27 @@
 //in this task we have to write a function that takes a string as input and returns the longest substring that contains only
 //unique characters. If there are multiple substrings with the same length, return the first one you encounter.
 
+function substring(string) {
+  let longestSubString = "";
+  let currentSubString = "";
+
+  for (let char of string) {
+    if (!currentSubString.includes(char)) {
+      currentSubString = currentSubString + char;
+    } else {
+      let charIndex = currentSubString.indexOf(char);
+      currentSubString = currentSubString.slice(charIndex + 1) + char;
+    }
+
+    if (currentSubString.length > longestSubString.length) {
+      longestSubString = currentSubString;
+    }
+  }
+
+  return longestSubString;
+}
+
+console.log(substring("xzvyxabcde"));
 
 //Task 51
 //In this task we have to write a program that prints the even numbers between 1 and 20 using for loop.
@@ -780,7 +772,6 @@
 //     break;
 // }
 
-
 //Task 53
 //In this task we have to write a program that asks the user to enter a number and keeps printing "Hello!"
 //that many times using a while loop.
@@ -794,7 +785,7 @@
 // }
 
 //Task 54
-//In this task we have to write a program that calculates the sum of numbers from 1 to 100 using a for loop and 
+//In this task we have to write a program that calculates the sum of numbers from 1 to 100 using a for loop and
 //prints the result.
 
 // let sum = 0 ;
@@ -805,9 +796,8 @@
 
 // console.log(sum)
 
-
 //Task 55
-//In this task we have to write a program that takes a month number as input(1 for January, 2 for February, etc.) and prints 
+//In this task we have to write a program that takes a month number as input(1 for January, 2 for February, etc.) and prints
 //the number of days in that month using a switch/case statement.
 
 // let num = Number(prompt("Enter the number!"));
@@ -833,11 +823,9 @@
 //     break;
 // }
 
-
 //Task 56
 //In this task we have to write a program that asks the user to guess a secret number between 1 and 10.
 //Keep asking for guesses until the guess number correctly using a while loop.
-
 
 // let secretNum = 3;
 // let ask = Number(prompt("Enter the number!"));
@@ -849,10 +837,10 @@
 // console.log("Correct!")
 
 //Task 57
-//In this task we have to write a program that takes a grade(A,B,C,D or F) as input and prints a corresponding message using a 
+//In this task we have to write a program that takes a grade(A,B,C,D or F) as input and prints a corresponding message using a
 //switch/case statement. For example, if the input is "A", it should print "Excellent!".
 
-// let str = prompt("Enter the grade!"); 
+// let str = prompt("Enter the grade!");
 
 // switch(str) {
 //     case "A" :
@@ -872,10 +860,8 @@
 //                         break;
 // }
 
-
-
 //Task 58
-//In this task we have to write a program that prompts the user to enter a password. The program should keep asking 
+//In this task we have to write a program that prompts the user to enter a password. The program should keep asking
 //for the password until the correct password is entered. Once the correct password is entered, display a success message.
 //The correct password is "12345".
 
@@ -884,18 +870,16 @@
 
 // while(password !== ask) {
 //     ask = Number(prompt("Enter the password!"));
-// }  
+// }
 // console.log("Congratulations!");
 
-
-
 //Task 59
-//In this task we have to write a function called sumDigits that takes a number as an argument and returns the sum 
+//In this task we have to write a function called sumDigits that takes a number as an argument and returns the sum
 //of its digits.
 
 // function sumDigits(num) {
 
-//     let sum = 0; 
+//     let sum = 0;
 //     let str = Math.abs(num).toString();
 //     for(let i=0; i< str.length; i++){
 //         sum = sum + parseInt(str[i]);
@@ -906,11 +890,9 @@
 
 // console.log(sumDigits(123))
 
-
 //Task 60
 //In this task we have to write a function called countBs, that takes a string as its only argument and returns the number
 //of uppercase "B" characters in the string.
-
 
 // function countBs(str) {
 //     let count = 0;
@@ -924,9 +906,7 @@
 
 // }
 
-
 // console.log(countBs("BoBby livesB in a Big bad Bang"))
-
 
 //Task 61
 //In this task we have to write a function called min that takes two arguments and returns their minimum.
@@ -937,19 +917,15 @@
 
 // }
 
-
 // console.log(min(2, 5))
-
 
 //Task 62
 //In this task we have to write a function called generateRandomNumber that takes a minimum number and a maximum number
 //as arguments and returns a random number between the minimum and maximum values(inclusive).
 
-
-
-// function generateRandomNumber(x, y) { 
+// function generateRandomNumber(x, y) {
 //    let range = y - x;
-//     let random  = Math.floor(Math.random() * (range +1) ) + x  
+//     let random  = Math.floor(Math.random() * (range +1) ) + x
 
 //     return random
 // }
@@ -958,7 +934,6 @@
 //Task 63
 //In this task we have to write a function called capitalizeWords which takes a sentence(string) as an argument and returns a new
 // sentence where the first letter of each word is capitalized.
-
 
 // function capitalizeWords(sentence) {
 //     let words = sentence.split(" ");
@@ -972,29 +947,4 @@
 //     return capitalizedWords.join(" ");
 // }
 
-
 // console.log(capitalizeWords("hello, my name is bob and i am good"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
